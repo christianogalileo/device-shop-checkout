@@ -107,6 +107,6 @@ Thanks to the developers and documentation contributors who provide helpful reso
 
 ## Author
 
-- **Name:** Your Name
-- **GitHub:** [@USERNAME](https://github.com/USERNAME)
+- **Name:** christianogalileo
+- **GitHub:** [@christianogalileo](https://github.com/christianogalileo)
 - **Project Repository:** [device-shop-checkout](https://github.com/USERNAME/device-shop-checkout)
