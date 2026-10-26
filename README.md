@@ -109,4 +109,4 @@ Thanks to the developers and documentation contributors who provide helpful reso
 
 - **Name:** christianogalileo
 - **GitHub:** [@christianogalileo](https://github.com/christianogalileo)
-- **Project Repository:** [device-shop-checkout](https://github.com/christianogalileo/device-shop-checkout)
+- **Project Repository:** [device-shop-checkout](https://christianogalileo.github.io/device-shop-checkout/)
