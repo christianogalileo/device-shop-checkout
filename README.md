@@ -1,98 +1,112 @@
-# DevChallenges.io - Device Shop Checkout
+# Device Shop Checkout
 
-![Thumbnail for the Device Shop Checkout coding challenge](./thumbnail.jpg)
+A responsive device shop checkout page built with HTML, CSS, and JavaScript. This project was created as part of a front-end development challenge to practice responsive layouts, form design, CSS Grid, and Flexbox.
 
-## Welcome! 👋
+## Links
 
-Welcome to this responsive web coding challenge.
+- **Live Demo:** [View Website](https://christianogalileo.github.io/device-shop-checkout/)
+- **Solution:** [GitHub Repository](https://github.com/christianogalileo/device-shop-checkout)
+- **Challenge:** [devChallenges](https://devchallenges.io/)
 
-[devChallenges.io](https://devchallenges.io/) challenges are designed to help you enhance your coding skills by building realistic projects.
+## Table of Contents
 
-**Suggested Skills to practice: HTML and CSS**
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [What I Learned](#what-i-learned)
+- [Built With](#built-with)
+- [Features](#features)
+- [Useful Resources](#useful-resources)
+- [Acknowledgements](#acknowledgements)
+- [Author](#author)
 
-## The challenge
+## Overview
 
-Your task is to create a web page that closely resembles the provided design.
+The Device Shop Checkout project is a responsive checkout interface designed to provide users with a simple and clear shopping experience. It displays a product summary, pricing information, a coupon field, and a contact information form.
 
-You can use any tools or resources you like to complete this challenge. Each challenge is designed to practice different skills, so be sure to check the challenge description for more information.
+The layout is designed to work across desktop, tablet, and mobile screen sizes.
 
-If you need help or have any questions, feel free to [join our community](https://github.com/orgs/devchallenges-io/discussions) and ask for support.
+### Screenshot
 
-## Where to find everything
+**Desktop Preview**
 
-Your goal is to build the project using the provided design. You can find the designs in the challenge editor once you start the challenge or in the `/design` folder. Please note that the `/design` folder may not include all the designs you need, so be sure to check the editor for more details.
+![Desktop Design](design/Desktop_1350px.jpg)
 
-The designs are in JPG format, so you'll need to use your best judgment for styles such as `font-size`, `padding`, and `margin`. Additionally, spacing guides are available for each challenge, but access to them requires a [Pro membership](https://devchallenges.io/pro). With a Pro membership, you can also download the Figma design files.
+**Tablet Preview**
 
-All the required assets can be found in the `/resources` folder. You may need to optimize the assets as necessary.
+![Tablet Design](design/Tablet_1024px.jpg)
 
-For more information about the challenge, access the challenge editor on [devChallenges.io](https://devchallenges.io/challenges-dashboard).
+**Mobile Preview**
 
-## Steps to Complete the Challenge on devChallenges.io
+![Mobile Design](design/Mobile_412px.jpg)
 
-- [ ] Start by visiting [devChallenges.io](https://devchallenges.io/), navigate to the challenge page, and begin the challenge.
-- [ ] Once you have started the challenge, you will have access to the editor where you can download the necessary resources, check colors, fonts, and more.
-- [ ] Download the starter/resources, and if you are a Pro user, you can also download the Figma file.
-- [ ] Initialize the project as a Git repository.
-- [ ] Review the design and analyze the different versions for desktop, tablet, and mobile.
-- [ ] Plan your approach to the project by identifying reusable CSS classes and structuring your HTML content.
-- [ ] Define the base styles for your project, including font-family, font-size, and other general content styles.
-- [ ] Begin adding styles from the top of the page and work your way down, ensuring that each section is visually appealing and matches the provided design.
-- [ ] Optimize and resize the required assets from the `/resources` folder as necessary.
-- [ ] Test your project's responsiveness by previewing it on different devices and screen sizes.
-- [ ] Once you are satisfied with your implementation, deploy your project to a hosting platform such as GitHub Pages, Vercel, or Netlify.
-- [ ] Submit your solution on devchallenges.io and aim to pass the design comparison and performance tests.
-- [ ] Replace the default `README.md` file with a custom one that explains your project and reflects on your learning experience. You can use the provided `README-template.md` as a starting point.
-- [ ] Share your solution with the devChallenges.io community by tweeting [@devchallengesio](https://twitter.com/devchallengesio) and mentioning the repository and live URLs in your tweet. You can also share your solution on other social channels or write a blog post about your experience.
-- [ ] Seek feedback from the community by using the provided templates or asking specific questions about your implementation.
+## What I Learned
 
-Good luck and enjoy building your project! 🚀
+While building this project, I practiced:
 
-## Deploying your project
+- Creating responsive layouts using CSS Grid and Flexbox.
+- Designing and styling HTML forms.
+- Using CSS media queries for desktop, tablet, and mobile screens.
+- Displaying product images using responsive image techniques.
+- Implementing basic form validation with JavaScript.
+- Creating a coupon interaction that updates the subtotal, tax, and total.
+- Organizing project assets into folders.
+- Deploying a static website using GitHub Pages.
 
-Our recommended hosting options include:
+## Built With
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+- HTML5
+- CSS3
+- JavaScript
+- CSS Grid
+- Flexbox
+- Responsive Web Design
+- Git and GitHub
+- GitHub Pages
 
-You can choose any of these solutions or explore other trusted providers. For more information, please refer to our guide on [free hosting platforms](https://devchallenges.io/learn/1-fundamentals/free-hosting-for-web-projects).
+## Features
 
-## Create your own `README.md`
+- Responsive checkout layout.
+- Product summary featuring:
+  - iPhone 12 Pro — Gold
+  - Apple Watch — Blue
+  - iMac — Green
+- Product images with high-resolution image support.
+- Coupon code input with a demo discount code: `SAVE10`.
+- Automatic subtotal, tax, and total calculation.
+- Contact information form with required fields.
+- Basic client-side form validation.
+- Background image and product assets.
+- Responsive navigation and checkout interface.
 
-To use the Readme template, follow these steps:
+### Example Order Summary
 
-1. Open the `README-template.md` file in your text editor.
-2. Replace the placeholder content with your own project information.
-3. Customize the sections and headings to fit your project's needs.
-4. Add a detailed description of your project, including its purpose and features.
-5. Reflect on your learning experience and any challenges you encountered during development.
-6. Delete the original `README.md` file.
-7. Rename the `README-template.md` file to `README.md`.
-8. Save the changes and commit the updated `README.md` file to your repository.
+| Item | Price |
+|---|---:|
+| iPhone 12 Pro | $999.00 |
+| Apple Watch | $399.00 |
+| iMac | $1,199.00 |
+| **Subtotal** | **$2,597.00** |
+| Tax (24%) | $623.28 |
+| **Total** | **$3,220.28** |
 
-By following these instructions, you can create a customized `README.md` file that effectively communicates your project to others.
+*Note: This is a front-end demonstration. The coupon, calculations, and form validation run in the browser. No real payment or order processing is implemented.*
 
-## More guides
+## Useful Resources
 
-Don't forget to check out the [devChallenges Curriculum](https://devchallenges.io/learn), which covers basic to advanced topics that are essential for your web development journey.
+- [MDN Web Docs](https://developer.mozilla.org/) — Documentation for HTML, CSS, and JavaScript.
+- [CSS Grid Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout) — A guide to building grid-based layouts.
+- [Flexbox Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout) — A guide to flexible layouts.
+- [GitHub Pages Documentation](https://docs.github.com/en/pages) — Instructions for deploying static websites.
+- [devChallenges](https://devchallenges.io/) — Front-end development challenges and learning resources.
 
-## Sharing your solution
+## Acknowledgements
 
-There are several platforms where you can share your solution:
+Thanks to devChallenges for providing the challenge and design references that inspired this project.
 
-1.  Tweet [@devchallengesio](https://x.com/devchallengesio) and mention **@devchallengesio**, including the repository and live URLs in your tweet. We would love to see what you have built and help spread the word.
-2.  Share your solution on other social channels such as LinkedIn and tag [devchallenges](https://www.linkedin.com/company/devchallenges).
-3.  Write a blog post about your experience building the project. Documenting your workflow, technical choices, and explaining your code is an excellent way to reinforce your learning. Popular platforms for writing include [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+Thanks to the developers and documentation contributors who provide helpful resources for learning modern web development.
 
-We provide templates to help you share your solution once you have submitted it on the platform. Feel free to edit them and include specific questions when seeking feedback.
+## Author
 
-The more specific your questions are, the more likely it is that another community member will provide feedback.
-
-## Feedback
-
-We value feedback and are always looking to improve our challenges and platform. If you have any suggestions or comments, please email us at hi\[at]devchallenges\[dot]io.
-
-This challenge is completely free. Please share it with anyone who would find it useful for practice.
-
-**Enjoy building!** 🚀
+- **Name:** Your Name
+- **GitHub:** [@USERNAME](https://github.com/USERNAME)
+- **Project Repository:** [device-shop-checkout](https://github.com/USERNAME/device-shop-checkout)
